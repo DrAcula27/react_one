@@ -1,8 +1,31 @@
+:root {
+  --dark-cerulean: #124e78;
+  --maastricht-blue: #0b132b;
+  --yankees-blue: #1c2541;
+  --sea-serpent: #5bc0be;
+  --aquamarine: #6fffe9;
+  --react: #00d8ff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--yankees-blue);
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +58,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

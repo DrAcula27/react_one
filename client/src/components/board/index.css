@@ -1,0 +1,13 @@
+.board > h1 {
+  font-size: 3em;
+  text-transform: uppercase;
+  text-shadow: -1px -1px 0 #5bc0be, 1px -1px 0 #5bc0be, -1px 1px 0 #5bc0be,
+    1px 1px 0 #5bc0be, 2px 2px 5px #fff;
+}
+
+.square-container {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, auto);
+}
