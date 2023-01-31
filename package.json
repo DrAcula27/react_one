@@ -1,0 +1,13 @@
+{
+  "name": "react_one",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"cd client && npm start\" \"cd backend && npm start\" "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
