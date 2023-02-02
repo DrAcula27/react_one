@@ -4,9 +4,14 @@ import "./index.css";
 const Square = (props) => {
   let { whichSquare } = props;
   return (
-    <div className="square">
-      <p>Square {whichSquare}</p>
-    </div>
+    <button
+      className="square"
+      onClick={() => {
+        console.log("click");
+      }}
+    >
+      Square {whichSquare}
+    </button>
   );
 };
 
