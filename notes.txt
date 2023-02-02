@@ -3,3 +3,6 @@ React is a javascript library (Single Page Application (SPA) framework)
 Rendering: run js file(s) and display on page
 
 "dev" script: start react dev server on port 3000 and server.js on port 5000
+
+Tutorial to make game function:
+https://reactjs.org/tutorial/tutorial.html

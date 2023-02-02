@@ -1,10 +1,11 @@
-.board > h1 {
-  font-size: 2em;
-}
-
 .square-container {
   justify-content: center;
   display: grid;
   grid-template-columns: repeat(3, 100px);
   grid-template-rows: repeat(3, auto);
+}
+
+.square-container:after {
+  clear: both;
+  content: "";
 }
