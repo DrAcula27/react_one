@@ -26,7 +26,16 @@
 
 ## Available Scripts
 
-In the **client** directory, you can run:
+In the _project_ directory, you can run:
+
+### `npm run dev`
+
+Runs the app in development mode.\
+Starts the backend on port 5000.\
+Starts the frontend on port 3000.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+In the _client_ directory, you can run:
 
 ### `npm start`
 
