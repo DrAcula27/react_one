@@ -2,4 +2,5 @@
   display: flex;
   background-color: #124e78;
   justify-content: center;
+  border: 2px solid var(--react);
 }
