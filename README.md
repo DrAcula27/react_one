@@ -3,7 +3,7 @@
   <img src="https://img.shields.io/badge/npm-%3E%3D9.1.2-blue.svg" />
   <img src="https://img.shields.io/badge/node-%3E%3D18.12.1-blue.svg" />
   <a href="#" target="_blank">
-    <img alt="License: ISC" src="https://img.shields.io/github/license/DrAcula27/productStore" />
+    <img alt="License: ISC" src="https://img.shields.io/github/license/DrAcula27/react_one" />
   </a>
 </p>
 
