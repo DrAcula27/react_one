@@ -1,10 +1,28 @@
-# Getting Started with Create React App
+<h1 align="center">Welcome to react_one!</h1>
+<p>
+  <img src="https://img.shields.io/badge/npm-%3E%3D9.1.2-blue.svg" />
+  <img src="https://img.shields.io/badge/node-%3E%3D18.12.1-blue.svg" />
+  <a href="#" target="_blank">
+    <img alt="License: ISC" src="https://img.shields.io/github/license/DrAcula27/productStore" />
+  </a>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> Per Scholas - Week 10 - React - Assignment: React-Tac-Toe (with time travel!)
 
-## Demo
+> This is my first `React` assignment through my Software Engineering course at Per Scholas. To play the game, a user clicks on squares to play tic-tac-toe. As the user plays, a history of moves is recorded, and the user can then "time travel" between moves. To implement the game functionality, I _mostly_ followed the tutorial in the [React Docs](https://beta.reactjs.org/learn/tutorial-tic-tac-toe).
+
+**This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).**
+
+## Static Demo
 
 ![Tic-Tac-Toe Image](./client/src/img/static-demo.png)
+
+## Author
+
+👤 **Danielle Andrews**
+
+- Github: [@DrAcula27](https://github.com/DrAcula27)
+- LinkedIn: [@daniellerandrews](https://linkedin.com/in/daniellerandrews)
 
 ## Available Scripts
 
@@ -12,7 +30,7 @@ In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
+Runs the app in the development mode. **Make sure to `cd` into the `client/` directory first!** \
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
@@ -72,3 +90,21 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Future Work
+
+- Improvements, listed in order of increasing difficulty:
+  - For the current move only, show “You are at move #…” instead of a button.
+  - Rewrite Board to use loops to make the squares instead of hardcoding them.
+  - Add a toggle button that lets the user sort the moves in either ascending or descending order.
+  - When someone wins, highlight the three squares that caused the win.
+  - If no one wins, display a message about the result being a draw.
+  - Display the location for each move in the format (col, row) in the move history list.
+
+## Attributions
+
+- Learn React tutorial: [Tic-Tac-Toe](https://beta.reactjs.org/learn/tutorial-tic-tac-toe)
+
+## Show Your Support
+
+Give a ⭐️ if you liked this project!
