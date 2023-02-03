@@ -1,5 +1,5 @@
 .player-container {
+  display: flex;
   background-color: #124e78;
-  width: 50%;
-  display: inline-block;
+  justify-content: center;
 }
