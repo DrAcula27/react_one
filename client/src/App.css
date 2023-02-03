@@ -42,28 +42,8 @@ ul {
   text-decoration: solid underline;
 }
 
-.game-info {
-  margin-left: 20px;
-}
-
-.game-info button {
-  padding: 0.5em 1em;
-  margin-bottom: 1em;
-  background-color: rgba(91, 192, 190, 0.5);
-  color: white;
-  font-size: 14px;
-  font-weight: bold;
-  border: 2px solid var(--maastricht-blue);
-  border-radius: 0.5em;
-}
-
-.game-info button:hover {
-  background-color: var(--sea-serpent);
-  color: var(--maastricht-blue);
-  border: 2px solid var(--react);
-  cursor: pointer;
-}
-
-.status {
-  margin-bottom: 10px;
+.winning-square {
+  background-color: aliceblue;
+  border: 2px solid green;
+  color: green;
 }

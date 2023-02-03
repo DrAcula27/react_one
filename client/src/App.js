@@ -3,6 +3,7 @@ import "./App.css";
 import Header from "./components/header";
 import Player from "./components/player";
 import Board from "./components/board";
+import Moves from "./components/moves";
 
 const calculateWinner = (squares) => {
   const lines = [
@@ -94,10 +95,7 @@ class Game extends React.Component {
               onClick={(i) => this.handleClick(i)}
             />
           </div>
-          <div className="game-info">
-            <h4>Previous Moves</h4>
-            <ol>{moves}</ol>
-          </div>
+          <Moves moves={moves} />
         </div>
       </div>
     );
